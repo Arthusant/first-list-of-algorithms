@@ -1,0 +1,5 @@
+nome = str(input ('Qual o nome do vendedor? ').strip())
+fixo = float(input('Qual o seu salario fixo? '))
+vendas = float(input('Qual o valor das vendas efetuadas nesse mês? '))
+print (f'O salario do vendedor {nome} é {fixo}R$')
+print (f'Com a comissão ficará {((vendas*15)/100) + fixo}')
