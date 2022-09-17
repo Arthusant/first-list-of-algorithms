@@ -1,0 +1,7 @@
+venal = float(input('Qual o valor venal do carro? '))
+print (f'Categoria de Automóveis:                         R${(venal*4)/100:.3f}')
+print (f'Categoria de Caminhotes de Carga e Furgão:       R${(venal*3)/100:.3f}')
+print (f'Categoria de Automóveis para Transporte Público: R${(venal*2)/100:.3f}')
+print (f'Categoria de Motocicletas:                       R${(venal*2)/100:.3f}')
+print (f'Categoria de Veiculos Locadores:                 R${(venal*1)/100:.3f}')
+print (f'Categoria de Ônibus, Caminhão e Trator:          R${(venal*1)/100:.3f}')
