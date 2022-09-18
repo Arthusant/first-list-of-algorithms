@@ -14,5 +14,5 @@ elif media >=6.0 and media <7.5:
 elif media >=7.5 and media <9.0:
     print (f'Conceito: B, suas notas foram {nota1,nota2} a média ficou {media}, APROVADO :D')
 
-elif media >=9.5 and media <=10:
+elif media >=9.0 and media <=10:
     print (f'Conceito: A, suas notas foram {nota1,nota2} a média ficou {media}, APROVADO :D')
